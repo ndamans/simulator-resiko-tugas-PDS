@@ -4,7 +4,7 @@ import joblib
 
 # Load model dan scaler yang sudah dilatih
 model = joblib.load('simulasi_T152/model_risiko_v1.joblib')
-scaler = joblib.load('scaler_risiko_v1.joblib')
+scaler = joblib.load('simulasi_T152/scaler_risiko_v1.joblib')
 
 st.title("Simulator Risiko Kegagalan Sistem 🛠️")
 st.write("Masukkan parameter mesin untuk mendeteksi tingkat risiko.")
