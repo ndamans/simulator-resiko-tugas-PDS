@@ -3,7 +3,7 @@ import numpy as np
 import joblib
 
 # Load model dan scaler yang sudah dilatih
-model = joblib.load('model_risiko_v1.joblib')
+model = joblib.load('simulasi_T152/model_risiko_v1.joblib')
 scaler = joblib.load('scaler_risiko_v1.joblib')
 
 st.title("Simulator Risiko Kegagalan Sistem 🛠️")
